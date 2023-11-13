@@ -1,0 +1,84 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.bg-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/match-game-bg.png');
+  background-size: cover;
+  min-height: 150vh;
+  width: 80%;
+  padding-bottom: 30px;
+}
+.match-image-container {
+  text-align: center;
+}
+.match-image {
+  width: 55%;
+  margin-top: 10vh;
+}
+.tabs-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.apps-list {
+  display: flex;
+  justify-content: center;
+  padding-left: 0px;
+}
+.image-container {
+  width: 65%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.score-page {
+  display: flex;
+  justify-content: center;
+}
+.game-over-page {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/match-game-score-card-lg-bg.png');
+  background-size: cover;
+  height: 140vh;
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.trophy-image {
+  margin-top: 250px;
+  height: 70vh;
+  width: 40vw;
+}
+.your-Score {
+  font-family: 'Roboto';
+  color: #ffffff;
+  margin-top: 0px;
+  font-size: 40px;
+  margin-bottom: 0px;
+}
+.total-Score {
+  font-family: 'Roboto';
+  color: #ffffff;
+  margin-top: 0px;
+  font-size: 40px;
+}
+.button {
+  display: flex;
+  align-items: center;
+  background-color: #cf60c8;
+  border-width: 0px;
+  padding: 10px;
+  color: white;
+  font-family: 'Roboto';
+  border-radius: 6px;
+}
